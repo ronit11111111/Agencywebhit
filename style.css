@@ -551,7 +551,7 @@ html {
   flex-wrap: wrap; /* Responsive wrapping */
 }
 
-#fo-div1 > div:nth-child(1) {
+#fo-div1 div:nth-child(1) {
   flex: 1;
   min-width: 300px;
   display: flex;
@@ -590,14 +590,14 @@ html {
   line-height: 1.5;
 }
 
- .contact-details {
+.contact-details {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   margin-top: 0.5rem;
 }
 
- .contact-details p {
+.contact-details p {
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -729,5 +729,12 @@ html {
 
   #fo-div1 {
     padding: 1.5rem;
+  }
+
+  #fo-div1 div:nth-child(1) {
+    min-width: 100px;
+  }
+  #fo-div1 div:nth-child(2) {
+    min-width: 100px;
   }
 }
