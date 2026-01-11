@@ -71,3 +71,15 @@ if (work) observer.observe(work);
 if (about) observer.observe(about);
 if (hero) observer.observe(hero);
 if (ourwork) observer.observe(ourwork);
+
+// Resetting form to new one
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("fo-form");
+
+  form.addEventListener("submit", () => {
+    setTimeout(() => {
+      form.reset();
+    }, 800);
+  });
+});
