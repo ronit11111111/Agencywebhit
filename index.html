@@ -161,9 +161,9 @@
     </section>
 
     <!-- ==== CODE FOR FOOTER SECTION==== -->
-    <footer id="footer">
-      <div id="fo-div1">
-        <div>
+    <section id="footer">
+      <div id="fo-container1">
+        <div class="fo-container1-div1">
           <h2>Grow your business</h2>
           <p>
             Start your success journey with expert guidance and strategic
@@ -171,34 +171,30 @@
             heights.
           </p>
         </div>
-        <div>
-          <h4>Contact Platform</h4>
-          <p>
-            Our contact platform makes it easy to contact with us for enquires,
-            support and collaborations. Reach out anytime, and let's build
-            success together.
-          </p>
-          <div class="contact-details">
-            <!-- <p>
-              <span class="material-symbols-outlined"> call </span>(201)
-              555-0124
-            </p> -->
-            <p>
-              <span class="material-symbols-outlined"> mail </span
-              >aurara1111@gmail.com
-            </p>
-            <p>
-              <span class="material-symbols-outlined"> location_on </span>
-              India
-            </p>
-          </div>
+        <div class="fo-container1-div2">
+          <h4>CONTACT US</h4>
+          <form action="">
+            <div>
+              <input type="text" name="first-name" placeholder="First Name" required/>
+              <input type="text" name="first-name" placeholder="Last Name" />
+            </div>
+            <input type="email" placeholder="Your Email" name="email" required />
+
+            <input type="tel" placeholder="Your Phone" name="tel" required />
+            <textarea
+              name="message"
+              id="fo-form-textarea"
+              placeholder="How can we help?"
+            ></textarea>
+            <button>Submit</button>
+          </form>
         </div>
       </div>
-      <div id="fo-div2">
+         <div id="fo-container2">
         <p>&copy;Aurara 2025 designed by Ronit Jain</p>
         <p>Terms of service</p>
       </div>
-    </footer>
+    </section>
 
     <!-- ====link to js file==== -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
